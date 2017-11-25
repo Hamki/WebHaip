@@ -1,0 +1,11 @@
+Options All -Indexes
+ErrorDocument 404 /errorRewriteEngine on
+RewriteEngine on
+
+          RewriteRule ^about/$    /pages/about.html [L]
+
+          RewriteRule ^features/$ /features.php [L]
+
+          RewriteRule ^buy/$      /buy.html [L]
+
+        RewriteRule ^contact/$  /pages/contact.htm [L]
